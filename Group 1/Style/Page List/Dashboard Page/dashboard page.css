@@ -1,0 +1,156 @@
+*{
+    font-family: 'khmer os siemreap';
+    font-size: 11pt;
+}
+
+body{
+    background-color:rgb(240, 240, 240);
+    display: flex;
+    margin: 0px auto;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+}
+
+.box1{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-items: center;
+}
+
+.box1 div{
+    background-color: blue;
+    padding: 20px;
+}
+
+.box1 li{
+    border: 5px solid yellow;
+    background-color: green;
+    height: 200px;
+}
+
+.box1 div a{
+    flex-direction: row;
+    background-color: green;
+    padding: 30px;
+}
+
+.box1 div img{
+    background-color: bisque;
+    align-content: center;
+    width: 50px;
+    padding: 10px;
+}
+
+.box2{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 350px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: white;
+    justify-items: center;
+    align-content: center;
+}
+
+.box3{
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    width: 350px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: white;
+    justify-items: center;
+    align-content: center;
+}
+    
+.box4{
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    width: 350px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: white;
+    justify-items: center;
+    align-content: center;
+}
+
+.box5{
+    position: absolute;
+    padding: 10px;
+    top: 200px;
+    left: 100px;
+    width: 760px;
+    height: 280px;
+    border-radius: 20px;
+    background-color: white;
+    align-content: center;
+    justify-items: center;
+}
+
+.box6{
+    position: absolute;
+    padding: 10px;
+    top: 200px;
+    right: 30px;
+    width: 300px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: white;
+    justify-items: center;
+}
+
+.footer{
+    position: absolute;
+    left: 100px;
+    width: 1135px;
+    height: 65px;
+    bottom: 0px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: rgb(165, 165, 165);
+    text-align: center;
+    line-height: 0;
+}
+.font_size{
+    font-size: 9pt;
+}
+
+.box_shadow{
+    box-shadow: 3px 3px 5px rgba(00, 00, 00, 0.3);
+}
+
+.price{
+    font-weight: bold;
+    color: brown;    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    font-weight: bold;
+    color: brown;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: brown;
+}
+input{
+    border-radius: 15px;
+    border: 1px solid brown;
+    color: brown;
+    padding: 0px 15px 0px 15px;
+}

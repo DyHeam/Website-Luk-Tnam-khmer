@@ -1,0 +1,251 @@
+*{
+    font-family: 'khmer os siemreap';
+    font-size: 11pt;
+}
+
+body{
+    background-color:rgb(240, 240, 240);
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.box1{
+    position: absolute;
+    top: 62px;
+    padding: 30px 20px 30px 30px;
+    background-color: white;
+    border-radius: 0px 0px 15px 0px;
+    box-shadow: 3px 3px 5px rgba(230,230, 230);
+}
+
+.box2{
+    position: absolute;
+    top: 61px;
+    right: 0px;
+    padding: 10px 30px 435px 30px;
+    border-radius: 0px 0px 0px 15px;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(230,230, 230);
+}
+
+.box_shadow{
+    box-shadow: 3px 3px 5px rgba(00, 00, 00, 0.3);
+}
+
+#dashboard_button{
+    border-radius: 15px;
+    padding: 0px 15px 0px 15px;
+    border: 1px solid brown;
+    color: brown;
+}
+#list_category{
+    border: 1px solid rgb(44, 104, 255);
+    padding: 0px 224px 0px 224px;
+    background-color: white;
+    color: rgb(44, 104, 255);
+    border-radius: 5px;
+}
+
+#search_product2{
+    border: 1px solid rgb(186, 178, 178);
+    padding: 0px 79px 0px 20px;
+    background-color: rgb(245, 241, 241);
+    color: rgb(186, 178, 178);
+    border-radius: 5px;
+}
+
+#image_box{
+    box-shadow: 2px 2px 5px rgb(100, 100, 100);
+    border-radius: 5px;
+}
+
+#spaghatti{
+    position: absolute;
+    top: 100px;
+    line-height: 0.1;
+}
+
+#coca{
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    line-height: 0.1;
+}
+
+#milk{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    line-height: 0.1;
+}
+
+#steak{
+    position: absolute;
+    top: 260px;
+    line-height: 0.1;
+}
+
+#burger{
+    position: absolute;
+    top: 260px;
+    right: 250px;
+    line-height: 0.1;
+}
+
+#cocktail{
+    position: absolute;
+    top: 260px;
+    right: 30px;
+    line-height: 0.1;
+}
+
+#reset_button{
+    color: white;
+    background-color: red;
+    padding: 0px 15px 0px 15px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#play_button{
+    color: white;
+    background-color: green;
+    padding: 0px 15px 0px 15px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#submit_button{
+    color: white;
+    background-color: rgb(113, 48, 2);
+    padding: 0px 15px 0px 15px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#price{
+    color: brown;
+    font-weight: bold;
+}
+
+#bold_text{
+    font-weight: bold;
+}
+
+.list_box{
+    line-height: 0.1;
+    padding: 0px 0px 125px 0px;
+}
+
+.total_box{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.1;
+}
+
+.space{
+    line-height: 0.1;
+    padding: 0px 0px 10px 0px;
+}
+
+.button{
+    position: absolute;
+    top: 430px;
+    right: 200px;
+}
+
+#previous_button{
+    color: rgb(186, 178, 178);
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+    border: 2px solid rgb(186, 178, 178);
+    border-radius: 15px;
+}
+#next_button{
+    color: black;
+    padding: 0px 10px 0px 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#button1{
+    color: white;
+    background-color: brown;
+    padding: 0px 10px 0px 10px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#button2{
+    color: white;
+    background-color: rgba(165, 42, 42, 0.3);
+    padding: 0px 10px 0px 10px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.category_page{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px 20px 514px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 1px rgb(170, 170, 170);
+    line-height: 0.1;
+}
+
+.camera1{
+    position: absolute;
+    top: 100px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgb(170, 170, 170);
+}
+.camera2{
+    position: absolute;
+    top: 100px;
+    padding: 20px 10px 20px 10px;
+    right: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(170, 170, 170);
+}
+
+.camera3{
+    position: absolute;
+    top: 300px;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(170, 170, 170);
+}
+
+.camera4{
+    position: absolute;
+    top: 300px;
+    padding: 20px 10px 20px 10px;
+    right: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(170, 170, 170);
+}
+
+.list_button{
+    position: absolute;
+    top: 480px;
+    right: 100px;
+}
+
+#font_size{
+    font-size: 15pt;
+    font-weight: bold;
+}
